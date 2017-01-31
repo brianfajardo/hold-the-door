@@ -1,0 +1,17 @@
+.container-fluid {
+    border: 2px solid red;
+}
+
+.questionBox {
+    border: 2px solid red;
+    margin-top: 50px;
+}
+
+.answerBox {
+    border: 2px solid lightseagreen;
+    margin-top: 25px;
+    height: 400px;
+}
+
+.answerBox input {
+}
