@@ -1,17 +1,74 @@
-.container-fluid {
-    border: 2px solid red;
+body{
+    background-image: url(images/lodyas.png) !important;
+    font-family: 'Fjalla One', sans-serif !important;
+    font-size: 35px !important;
+}
+.container{
+    margin-top: 8%;
+    background: rgba(169,169,169,0.4);
+    padding: 20px;
+    border: none;
+}
+.header {
+    border: 5px solid black;
+    height: 220px;
+    position:relative;
+}
+img {
+    width: 325px;
+    height: 250px;
+    float: right;
+    border: 2px solid blue;
+}
+.title{
+    text-align: center;
+    font-size: 150px;
+    color: white;
+    font-family: 'Cinzel Decorative', cursive;
+    text-shadow: 2px 3px 5px black;
+    letter-spacing: 40px;
+    margin-top: 70px;
+    float: left;
+    position: absolute;
+}
+#startButton{
+    text-align: center;
+    color: #FF3B3F
+}
+#startButton:hover{
+    color: white;
+}
+#questionText{
+    background: rgba(194,235,239,0.6);
+    text-align: center;
+    padding: 25px 25px;
+}
+#questionText::selection{
+    background: #FF3B3F;
+    color: white;
 }
 
-.questionBox {
-    border: 2px solid red;
-    margin-top: 50px;
+label {
+    margin-left: 10px;
+    color: white;
+    text-shadow: 3px 2px 2px #333333
+}
+label::selection{
+        background: #FF3B3F;
+    color: white;
+}
+label:hover{
+    color:#FF3B3F
 }
 
-.answerBox {
-    border: 2px solid lightseagreen;
-    margin-top: 25px;
-    height: 400px;
+#nextButton{
+    float: right;
+    border: none;
+    background-color: #FF3B3F;
+    height: 50px;
+    width: 100px;
+    border-radius: 4px;
 }
-
-.answerBox input {
+#nextButton:hover{
+    color: white;
 }

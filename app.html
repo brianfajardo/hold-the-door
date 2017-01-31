@@ -2,29 +2,46 @@
 <html>
 
 <head>
-    <title>GoT: Hodor Quiz</title>
+    <title>Hodor Quiz (RIP)</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative:700" rel="stylesheet">
 </head>
 
 <body>
-    <div class="container-fluid">
+
+    <div class="container">
+        <div class="header">
+            <img src="images/stark1.png">
+            <h1 class="title">Hodor</h1>
+        </div>
         <div class="questionBox">
             <h1 id="questionText">Hodor. The man, the myth, the legend. How much do you know about the simpleminded giant? Let's find out!</h1>
-            <h2 id="initQuiz">Start</h2>
+            <h2 id="startButton">Begin</h2>
         </div>
-        <div class="answerBox">
-            <label for="opt1"><input id="opt1" type="radio" value="1" name="userAnswer"> option 1</input></label>
-            <label for="opt2"><input id="opt2" type="radio" value="2" name="userAnswer"> option 2</input></label>
-            <label for="opt3"><input id="opt3" type="radio" value="3" name="userAnswer"> option 3</input></label>
-            <label for="opt4"><input id="opt4" type="radio" value="4" name="userAnswer"> option 4</input></label>
-            <button id="nextButton" onclick="">Next</button>
+        <div id="answerBox">
+            <div class="options">
+                <input id="option1" type="radio" value="1" name="userAnswer"><label for="option1" id="opt1"></label>
+            </div>
+            <div class="options">
+                <input id="option2" type="radio" value="2" name="userAnswer"><label for="option2" id="opt2"></label>
+            </div>
+            <div class="options">
+                <input id="option3" type="radio" value="3" name="userAnswer"><label for="option3" id="opt3"></label>
+            </div>
+            <div class="options">
+                <input id="option4" type="radio" value="4" name="userAnswer"><label for="option4" id="opt4"></label>
+            </div>
+        </div>
+        <button id="nextButton" onclick="app.loadNextQuestion()">Next</button>
+
 </div>
-</div>
-<script src="script.js"></script>
+
 <script src="questions.js"></script>
+<script src="script.js"></script>
 </body>
 
 </html>

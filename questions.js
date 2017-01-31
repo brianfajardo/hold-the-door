@@ -31,7 +31,7 @@ var questions = [{
     "option1": "\"He's a big lad\"",
     "option2": "\"He must have giants' blood in him\"",
     "option3": "\"Seven 'ells!\"",
-    "option4": "*grins*",
+    "option4": "\"Put some clothes on Hodor!\"",
     "answer": "2"
 }, {
     "question": "When does Bran first skinchange into Hodor?",
@@ -55,18 +55,18 @@ var questions = [{
     "option4": "\"Noooooo, nooooo!\"",
     "answer": "2"
 }, {
-    "question": "Kristian Nairn, the actor protrayed by Hodor, has what occupation while not filming Game of Thrones?",
+    "question": "What ability does Hodor have?",
+    "option1": "Healing",
+    "option2": "Superhuman physical strength",
+    "option3": "Echolocation",
+    "option4": "Immortality",
+    "answer": "2"
+}, {
+    "question": "Kristian Nairn, the actor portrayed by Hodor, has what occupation while not filming Game of Thrones?",
     "option1": "Door stop woodmaker",
     "option2": "Beer specialist",
-    "option3": "DJ",
+    "option3": "DJ/Producer",
     "option4": "Highschool football coach",
     "answer": "3"
-}, {
-    "question": "Hodor?",
-    "option1": "Hodor",
-    "option2": "Hodor!",
-    "option3": "HODOR!",
-    "option4": "HOOOODORRR!!!!1!!11!",
-    "answer": "",
 }
 ]
